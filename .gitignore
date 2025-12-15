@@ -1,0 +1,32 @@
+# 包含基础Python配置
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# 大型数据文件
+*.csv
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pkl
+*.pickle
+data/
+datasets/
+
+# 模型文件
+*.pth
+*.pt
+*.model
+models/
+checkpoints/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 实验结果
+runs/
+experiments/
+logs/
+tensorboard/
